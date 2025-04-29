@@ -1,0 +1,242 @@
+
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inicio</title>
+  <link rel="stylesheet" href="estilos.css">
+
+<style>
+   body {
+
+    
+
+        /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+nav ul li a:hover{
+  background: red;
+  display: block;
+}
+.boton-amarillo {
+  background-color: #FFD700;
+  padding: 8px 15px;
+  color: black;
+  border-radius: 5px;
+}
+
+/* Sección Principal */
+.principal {
+  position: relative;
+  text-align: center;
+  background-color: black;
+  padding: 100px 20px;
+}
+
+.contenido-principal h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.contenido-principal p {
+  color: white;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.boton-construye {
+  background-color: #FFD700;
+  padding: 12px 20px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.imagen-principal {
+  margin-top: 40px;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Sección Experiencia */
+.experiencia {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cards-experiencia {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+/* Sección Nosotros */
+.nosotros {
+  padding: 60px 20px;
+}
+
+.nosotros h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nosotros p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.imagenes-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.imagenes-nosotros img {
+  width: calc(25% - 10px);
+  border-radius: 10px;
+}
+
+/* Sección Misión y Visión */
+.mision-vision {
+  background-color: black;
+  color: white;
+  padding: 60px 20px;
+}
+
+.mision-vision h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.mision, .vision {
+  margin-bottom: 40px;
+}
+
+.imagen-mision img, .imagen-vision img {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+</style>
+</head>
+<body>
+
+
+  <!-- Navegación -->
+  <header>
+    <div class="logo">
+      <img src="C:\Users\Paola\OneDrive\Desktop\Fotos de portales web\imagenes\785ad741-2a5a-4d46-a559-dbf355b3af0f.jpeg"alt=" Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="C:\Users\Paola\Downloads\colchones  Rex.html">Inicio</a></li>
+        <li><a href="C:\Users\Paola\Downloads\ubicaciones.html">Nosotros</a></li>
+        <li><a href="C:\Users\Paola\Downloads\jp.html">Ubicación</a></li>
+        <li><a href="#">productos</a></li>
+        <li><a href="C:\Users\Paola\Downloads\contactos.html">Contacto</a></li>
+        <li><a href="#" class="boton-amarillo">Evaristo Morales</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Principal -->
+  <section class="principal">
+    <div class="contenido-principal">
+      <h1>colchones Rex</h1>
+      <p>En Colchones Rex, te invitamos a experimentar el cambio: un descanso renovado, un bienestar real, un mejor mañana.</p>
+      <a href="#nosotros" class="boton-construye">CONSTRUYE TU LEGADO</a>
+    </div>
+    <img src="C:\Users\Paola\OneDrive\Desktop\Fotos de portales web\imagenes\785ad741-2a5a-4d46-a559-dbf355b3af0f.jpeg"alt="logo" class="imagen-principal">
+  </section>
+
+  <!-- Sección Experiencia -->
+  <section class="experiencia">
+    
+    <h2></h2>
+    <p></p>
+
+    <div class="cards-experiencia">
+      <div class="card">
+        <img src="ruta-imagen-plan.jpg" alt="Nuestros planes">
+        <h3>Nuestros Planes</h3>
+      </div>
+      <div class="card">
+        <img src="ruta-imagen-clases.jpg" alt="Clases grupales">
+        <h3>Clases Grupales</h3>
+      </div>
+      <div class="card">
+        <img src="ruta-imagen-horarios.jpg" alt="Nuestros horarios">
+        <h3>Nuestros Horarios</h3>
+      </div>
+    </div>
+  </section>
+
+ 
+
+</body>
+</html>

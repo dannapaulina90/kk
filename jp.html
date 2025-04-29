@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colchones Rex</title>
+  <link rel="stylesheet" href="estilos.css">
+
+
+    </head>
+<body>
+<style>
+        body {
+    /* estilos.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.boton-amarillo {
+  background-color: #FFD700;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Principal */
+.principal {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+}
+
+.contenido-principal h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contenido-principal p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.boton-construye {
+  background-color: #FFD700;
+  color: #000;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.imagen-principal {
+  margin-top: 30px;
+  max-width: 100%;
+}
+
+/* Experiencia */
+.experiencia {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.cards-experiencia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.cards-experiencia .card {
+  background: #eee;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.cards-experiencia .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Nosotros */
+.nosotros {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.nosotros h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.nosotros p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.imagenes-nosotros {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imagenes-nosotros img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Misión y Visión */
+.mision-vision {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.mision-vision h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.mision-vision p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.mision-vision img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* Ubicación */
+.ubicacion {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.grid-ubicacion {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Cajas negras y amarillas */
+.caja {
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+.caja.negra {
+  background-color: #000;
+}
+
+.caja.amarilla {
+  background-color: #FFD700;
+  color: #000;
+}
+
+/* Mapa */
+.mapa iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+
+
+  <!-- Navegación -->
+  <header>
+    <div class="logo">
+      <img src="C:\Users\Paola\OneDrive\Desktop\Paguina Web\imagenes\af0e08a0-1abc-40f6-808c-3261c07338c6.jpeg" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="C:\Users\Paola\Downloads\colchones  Rex.html">Inicio</a></li>
+        <li><a href="C:\Users\Paola\Downloads\ubicaciones.html">Nosotros</a></li>
+        <li><a href="C:\Users\Paola\Downloads\jp.html">Ubicación</a></li>
+        <li><a href="C:\Users\Paola\Downloads\contactos.html">Contacto</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+    <!-- Sección Ubicación -->
+  <section id="ubicacion" class="ubicacion">
+    <h2>Ubicación</h2>
+    <div class="grid-ubicacion">
+      <!-- Blue Mall -->
+      <div class="caja negra">
+        <h3>Blue Mall</h3>
+        <p><strong>Dirección:</strong> Av. Winston Churchill 80, Santo Domingo, RD</p>
+        <p><strong>Tel:</strong> 809-738-3028</p>
+        <p><strong>Email:</strong> colchonesrex12@gmail.com</p>
+      </div>
+      <div class="mapa">
+        <iframe src="https://www.bing.com/maps?&mepi=106~Retail~Unknown~Map_Image&ty=18&q=Fabrica%20De%20Colchones%20Rex%20Sa&ss=ypid.YN8050x14076620379269339024&segment=Retail&ppois=18.47186851501465_-69.89131164550781_Fabrica%20De%20Colchones%20Rex%20Sa_YN8050x14076620379269339024~&cp=18.471869~-69.891312&lvl=16&v=2&sV=1&FORM=MPSRPL" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <!-- Galeria 360 -->
+      <div class="caja amarilla">
+        <h3> Autopista de San Isidro:</h3>
+        <p><strong>Dirección:</strong> Colchones Rex ubicado en la Autopista de San Isidro KM 5½, Santo Domingo.</p>
+        <p><strong>Tel:</strong> 809-738-3028</p>
+        <p><strong>Email:</strong> colchonesrex12@gmail.com</p>
+      </div>
+      <div class="mapa">
+        <iframe src="1"width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <!-- Independencia -->
+      <div class="caja negra">
+        <h3>Independencia</h3>
+        <p><strong>Dirección:</strong> C/ Esther Rosario #1, San Miguel km 8 1/2 Carretera Sánchez, Santo Domingo, RD</p>
+        <p><strong>Tel:</strong> 809-738-3028</p>
+        <p><strong>Email:</strong> colchonesrex12@gmail.com</p>
+      </div>
+      <div class="mapa">
+        <iframe src="URL_DEL_MAPA_INDEPENDENCIA" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

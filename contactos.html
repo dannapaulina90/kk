@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<style>
+        body {
+              body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #000;
+    background-image: url('fondo-textura.jpg'); /* Imagen de textura que usas */
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0;
+}
+
+.contenedor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.menu a.boton {
+    background-color: #f1c40f;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Contenido Principal */
+.contenido {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.contenedor-contacto {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contactos {
+    width: 40%;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 30px;
+}
+
+.contactos a {
+    color: gold;
+    text-decoration: none;
+}
+
+.contactos a:hover {
+    text-decoration: underline;
+}
+
+.formulario {
+    width: 60%;
+    background-color: #fefefe;
+    padding: 30px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: yellowgreen;
+}    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e6b800;
+
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+
+    </style>
+</head>
+<body>
+<!-- Encabezado -->
+<header class="encabezado">
+    <div class="contenedor-header">
+        <img src="C:\Users\Paola\OneDrive\Desktop\Paguina Web\imagenes\af0e08a0-1abc-40f6-808c-3261c07338c6.jpeg" alt="colchones" class="logo"> <!-- Aquí va tu logo -->
+        <nav class="menu">
+            <a href="C:\Users\Paola\Downloads\colchones  Rex.html">INICIO</a>
+            <a href="C:\Users\Paola\Downloads\ubicaciones.htm">NOSOTROS</a>
+            <a href="C:\Users\Paola\Downloads\jp.html">UBICACIÓN</a>
+            <a href="C:\Users\Paola\Downloads\contactos.html">CONTACTO</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Sección principal -->
+<main class="contenido">
+    <h1>CONTACTOS</h1>
+
+    <div class="contenedor-contacto">
+        <div class="contactos">
+            <h2>Información de contacto</h2>
+            <p><strong> Autopista de San Isidro:</strong> 809-549-4321</p>
+            <p><strong>Galería 360:</strong> 809-333-4321</p>
+            <p><strong>Independencia:</strong> 809-533-4321</p>
+            <p><strong>Coral Mall:</strong> 809-728-0049</p>
+            
+
+            <br>
+
+            <p>Para contrataciones: <a href="colchonesrex12@gmail.com">colchonesrex12@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/colchonesrex" target="_blank">https://www.instagram.com/colchonesrex</a></p>
+        
+        </div>
+
+        <div class="formulario">
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="sede">Sede:</label><br>
+                <select id="sede" name="sede" required>
+                    <option value="">Seleccione</option>
+                    <option value="Autopista de San Isidro:">Autopista de San Isidro:</option>
+                    <option value="Galería 360">Galería 360</option>
+                    <option value="Independencia">Independencia</option>
+                    <option value="Coral Mall">Coral Mall</option>
+                    <option value="Evaristo Morales">Evaristo Morales</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>
+
